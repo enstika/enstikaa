@@ -1,4 +1,6 @@
 #include <iostream>
+#include <iomanip>
+
 using namespace std;
 
 int main() {
@@ -26,6 +28,8 @@ int main() {
     }
 
     double totalBayar = totalHarga - (totalHarga * diskon);
+    
+    cout << fixed << setprecision(2);
     cout << "Total yang harus dibayar: Rp " << totalBayar << endl;
 
     return 0;
