@@ -47,7 +47,7 @@ void Lingkaran(double JariJari) {
 
 void main() {
 	Persegi(4);
-	PersegiPanjang(40,50);
+	PersegiPanjang(4,11);
 	SegitigaSikuSiku(4,5);
 	Lingkaran(20);
 }
